@@ -186,8 +186,13 @@ IGL_INLINE bool igl::readOBJ(
         while(sscanf(l,"%s%n",word,&offset) == 1)
         {
           // adjust offset
+
           l += offset;
           // Process word
+       if (strlen(word) == 0) {
+            continue;
+            // fixed by Frank
+        }
           long int i,it,in;
           if(sscanf(word,"%ld/%ld/%ld",&i,&it,&in) == 3)
           {
