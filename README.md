@@ -46,7 +46,7 @@ Press "1" to view the point cloud.
         style="display: block; margin: 0 auto" />
 </p>
 
-Press "2" twice to toggle between viewing the full query point cloud and the point cloud identified within the volume—these are the inside candidates we need.
+Press "2" twice to toggle between viewing the full query point cloud and the point cloud identified within the volume.
 <p align="center">
 <img src="./assets/fig_wnf_t2_2.png" 
         alt="Picture" 
